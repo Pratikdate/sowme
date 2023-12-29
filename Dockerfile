@@ -1,5 +1,5 @@
 # Use the official Node.js 16 image based on Alpine Linux
-FROM node:16-alpine
+FROM node:20-alpine
 
 # Create a directory named "sowme" in the container file system
 RUN mkdir -p /sowme
