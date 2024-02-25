@@ -43,11 +43,11 @@ export default function AboutPage(params:any){
         
         </section> 
         <section className="md:grid grid-cols-2 gap-4">
-        <div  className=' md:grid-cols-2 max-sm:px-10' >
+        <div  className=' flex-col mt-auto md:grid-cols-1 max-sm:px-10 ' >
         <img src="/About-Us_Our-Vision.jpg" />
         </div>
-        <div className=' mt-20 md:grid-cols-1 '>
-        <Typography variant="h4" className=' font-bold ml-4 flex  justify-center items-center' color={'black'}  component="a" sx={{ flexGrow: 2 }}>
+        <div className=' grid-rows-1 md:grid-cols-2 md:px-0 px-10  '>
+        <Typography variant="h4" className=' font-bold ml-4 flex  justify-center items-center ' color={'black'}  component="a" sx={{ flexGrow: 2 }}>
    
                  Our Vision
             </Typography>
