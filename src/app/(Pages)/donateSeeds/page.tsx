@@ -1,16 +1,8 @@
 'use client';
 
-import OurTeamMember from "@/app/widges/ourteamwidge";
-import TextArea from "@/app/widges/textarea";
 import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
-import TextField from '@mui/material/TextField';
-import Button from '@mui/material/Button';
-import Link from '@mui/material/Link';
 import Card from '@mui/material/Card';
 import { CardActionArea } from '@mui/material';
-import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
-import { Tab} from "@nextui-org/react";
 
 
 

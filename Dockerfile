@@ -1,5 +1,5 @@
-# Use the official Node.js 18 image based on Alpine Linux
-FROM node:18.17.1-alpine3.17
+# Use the official  image based on Alpine Linux
+FROM node:21-alpine
 
 # Create a directory named "sowme" in the container file system
 RUN mkdir -p /sowme
@@ -12,10 +12,13 @@ COPY package.json .
 COPY package-lock.json .
 
 # Install Node.js dependencies based on package.json
+RUN npm install -g npm@latest
 RUN npm install
 
 # Copy all files from the current directory into /sowme in the container
 COPY . .
+
+
 
 # Inform Docker that the container will listen on port 3000 at runtime
 EXPOSE 3000

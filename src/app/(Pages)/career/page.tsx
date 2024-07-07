@@ -3,12 +3,10 @@
 
 
 import OurTeamMember from "@/app/widges/ourteamwidge";
-import TextArea from "@/app/widges/textarea";
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
-import Link from '@mui/material/Link';
 import { Card } from '@nextui-org/react';
 
 
