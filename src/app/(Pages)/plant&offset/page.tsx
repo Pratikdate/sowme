@@ -62,7 +62,7 @@ function OfferCard(){
         <div className=" justify-between md:grid grid-cols-2 gap-4 mt-10">
             <Card  sx={{ maxWidth: 400 ,  bgcolor:"transparent"}} className=' grid-cols-1 shadow-md'>
             <CardActionArea className='flex flex-col min-w-10 items-center p-4' >
-            <Typography variant="h6" className='font-bold flex   justify-center items-center' color={'black'}  component="a" sx={{ flexGrow: 2 }}>
+            <Typography variant="h6" className='font-bold flex   justify-center' color={'black'}  component="a" sx={{ flexGrow: 1 }}>
    
             Plant & Offer
 Trees
@@ -87,7 +87,7 @@ Trees
             <Typography  className=' font-thin mt-4'  sx={{ flexGrow: 2 }}>
             onetime/monthly/yearly
             </Typography>
-            <a  href="/plant&offer" type="button" className="mt-2 focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-1 pb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">plant & offer tree
+            <a  href="/plant&offer" type="button" className="mt-3 focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2 pb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">plant & offer tree
 </a>
 
         
@@ -131,7 +131,7 @@ Citizen
             Automatic
             
             </Typography>
-            <a  href="/netZeroCitizen" type="button" className="mt-2 focus:outline-none text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-1 pb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Net Zero Citizen</a>
+            <a  href="/netZeroCitizen" type="button" className="mt-2 focus:outline-none text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2 pb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Net Zero Citizen</a>
 
            
         
